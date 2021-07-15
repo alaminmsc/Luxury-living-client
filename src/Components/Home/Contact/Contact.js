@@ -12,7 +12,7 @@ const Contact = () => {
             <h2>Contact</h2>
             <h1>Let us handle your <br></br>project, professionally.</h1>
             <br></br>
-            <form onSubmit={handleSubmit(onSubmit)} style={{margin:'auto', width:'80%',backgroundColor:'red'}} className="py-4">
+            <form onSubmit={handleSubmit(onSubmit)} style={{margin:'auto', width:'80%'}} className="py-4 bg-light">
                 <div className="d-flex mx-5 my-2">
                     <input {...register("fullname", { required: true })} className="form-control mx-2" placeholder="Full Name" />
                     {errors.fullname && <span>This field is required</span>}

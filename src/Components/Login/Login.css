@@ -1,0 +1,30 @@
+.login{
+    width: 30%;
+    margin: 0 auto;
+}
+.social-login{
+    position: relative;
+}
+.social-login:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 140px;
+    background-color: red;
+    top: 10px;
+    margin-left: 10px;
+}
+.social-login:before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 140px;
+    background-color: red;
+    top: 10px;
+    left: 65px;
+    margin-left: 10px;
+}
+.google button{
+    width: 80%;
+    margin: 0 auto;
+}
